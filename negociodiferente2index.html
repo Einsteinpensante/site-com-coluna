@@ -1,0 +1,209 @@
+<html>
+    
+    <head> 
+        <meta charset="UTF-8">
+        <title>Minha primeira página</title>
+        <style>
+
+            #corpo{
+                background-color:slategrey
+            }
+
+            .header{
+                background-color: black;
+                
+            }
+            .paragrafo1{
+                display: flex;
+            }
+            .paragrafo-texto{
+                margin: 20px 0 20px;
+            }
+            .tabela{
+                float: left;
+                width: 50%;
+                background-color: rgba(100, 148, 237, 0.726);
+            }
+            .lista{
+                float: right;
+                width: 50%;
+                background-color: rgba(100, 148, 237, 0.911);
+            }
+            .form textarea, select, input{
+                width: 100%;
+
+            }
+            .form{
+                width: 50%;
+                float: left;
+
+            }
+            #header{
+                text-align: center;
+
+            }
+            header{
+
+            }
+            section{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .sectionpai{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .sectioncss{                
+                background-color: mediumaquamarine;                               
+            }
+            .sectionjs{               
+                background-color: mediumspringgreen;               
+            }
+            .sectionhtml{
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body id="corpo" class="cor_diferente_de_algo">
+        <header class="header" id="header" style="color:white">
+        <h1>HTML<sup>Linguagem de Marcação de Hipertexto</sup></h1>
+        <h3>Tutoriais para iniciantes</h3>
+        </header>
+        
+        <section class="paragrafo-texto paragrafo1">
+        <img width= "150px" align = "left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Tao0oMunq-rtjpCEtSv9iORr_E9eMBQ_5Q&usqp=CAU">
+        <p>
+            <b><ins>HTML</ins></b><i> (Linguagem de Marcação de Hipertexto)</i> é o bloco de contrução mais básico da web. 
+            <mark>Define o significado e a estrutura do conteúdo da web.</mark>        
+            Outras tecnologias além do HTML geralmente são usadas para descrever a aparencia/apresentação (CSS) 
+            ou a funcionalidade/comportamento<i>(JavaScript)</i> de uma página da web.
+
+        </p>
+        </section>
+        
+        <hr>
+        <section class="paragrafo1">
+
+        <section class="tabela">
+            <table border="1">
+                <thead>
+                <tr>
+                    <th colspan="2">Tabela de Tags HTML</th>
+                </tr>
+                <tr> 
+                    <th>TAG</th>
+                    <th>RESUMO </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <td><b>HTML</b></td>
+                    <td>Define um escopo de um documento HTML</td>
+                <tr>
+                    <td><b>P</b></td>
+                    <td>Define um parágrafo no documento</td>
+                </tr>
+                <tr>
+                    <td><b>A</b></td>
+                    <td>Tag de ancoragem, onde podemos inserir link em elementos de uma página HTML</td>
+                </tr>
+                <tr>
+                    <td><b>B</b></td>
+                    <td>Deixa o texto em negrito</td>
+                </tr>
+                <tr>
+                    <td><b>MARK</b></td>
+                    <td>Destaca um texto</td>
+                </tr>
+                <tr>
+                    <td><B>I</B></td>
+                    <td>Deixa o texto em itálico</td>
+                </tr>
+                <tr>
+                    <td><b>INS</b></td>
+                    <td>Deixa o texto sublinhado</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="2">Fonte: <a href="https://www.google.com">Google.com</a></td>
+                </tfoot>
+
+            </table>
+            </section>  
+            <section class="lista">  
+            <ol>
+                <li>HTTP :</li>
+                    <ul>
+                        <li>Hypertext Transfer Protocol (Protocolo de Transferência de Hipertexto)</li>
+                    </ul>
+                <li>IP :</li>
+                    <ul>
+                        <li>Internet Protocol (protocolo de rede)</li>
+                    </ul>
+                <li>FTP :</li>
+                    <ul>
+                        <li>File Transfer Protocol (Protocolo de rede para a transmissão de arquivos entre computadores)</li>
+                    </ul>
+                <li>IMAP :</li>
+                    <ul>
+                        <li>Internet message access protocol (Protocolo para receber e-mails que permite aos usuários acessar seus e-mails a partir de diferentes dispositivos)</li>
+                    </ul>
+                <li>POP :</li>
+                    <ul>
+                        <li>Post Office Protocol (Protocolo responsável por receber e armazenar os e-mails)</li>
+                    </ul>
+            </ol>    
+            </section>
+        </section>
+        <hr>
+        <section class="sectionpai">
+            <section class="sectionhtml">
+                <h2><b>O que é HTML?</b></h2>
+            <p>
+                HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de Marcação de Hipertexto") é uma linguagem de marcação utilizada na construção de páginas na Web.
+            </p>
+            </section>
+            <section class="sectioncss">
+                <h2><b>O que é CSS?</b></h2>
+            <p>
+                CSS ou Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos.
+            </p>
+            </section>
+            <section class="sectionjs">
+                <h2><b>O que é JAVASCRIPT?</b></h2>
+                JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+            </p>
+            </section>
+        </section>
+            <section class="form paragrafo1">
+                <form method="post" action="obrigado.html">
+                    <label>Nome:</label>
+                    <input type="text" name="Nome" required>
+
+                    <label>idade:</label>
+                    <input type="number" min="0" name="idade" required>
+
+                    <label>Email:</label>
+                    <input type="email" name="Email" required>
+
+                    <label>Assunto:</label>
+                    <select name="Assunto">
+                        <option>Selecione uma opção</option>
+                        <option value="sugestão">sugestão</option>
+                        <option value="Crítica">Crítica</option>
+                        <option value="Elogio">Elogio</option>
+                    </select>
+                    
+                    <label>Mensagem:</label>
+                    <textarea name="Mensagem"></textarea>
+                    <label>Concordo com os Termos de Privacidade</label>
+                    <input type="checkbox" name="Termos" value="aceito" required>
+                    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Apagar</button>
+                    
+                </form>
+            </section>
+    </body>
+</html>
